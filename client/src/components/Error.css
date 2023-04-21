@@ -1,0 +1,24 @@
+.error {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+
+    font-family: 'Roboto';
+
+    height: 100%;
+}
+
+.text {
+    text-align: center;
+
+    width: 100%;
+}
+
+.text .header {
+    font-size: 10em;
+}
+
+.text .subtitle {
+    font-size: 3em;
+}

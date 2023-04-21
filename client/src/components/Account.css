@@ -1,0 +1,38 @@
+.account {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-button {
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    right: 5px;;
+    top: 75px;
+
+    background: white;
+    border: solid 1px black;
+
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.menu-item {
+    padding: 5px;
+    border-bottom: solid 1px gray;
+
+    cursor: pointer;
+}
+
+.menu-item:hover {
+    background-color: salmon;
+}
+
+.dark .menu {
+    background-color: #222222;
+    color: white;
+    border: solid 1px white;
+}

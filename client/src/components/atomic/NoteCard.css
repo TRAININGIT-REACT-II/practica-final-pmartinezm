@@ -1,0 +1,41 @@
+.card {
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    height: 300px;
+
+    box-shadow: 2px 2px 5px gray;
+    border: solid 1px black;
+
+    padding: 15px;
+    margin: 15px;
+}
+
+.card-header {
+    height: 20%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-content {
+    height: 70%;
+    font-size: 0.8em;
+}
+
+.card-bottom {
+    color: gray;
+    font-size: 0.75em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card-footer {
+    height: 10%;
+}
+
+.dark .card {
+    background-color: #333333;
+}

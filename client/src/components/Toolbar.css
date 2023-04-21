@@ -1,0 +1,57 @@
+.toolbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: lightsalmon;
+    padding: 5px;
+    color: black;
+}
+
+.logo {
+    font-size: 1.75em;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+}
+
+.link {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    cursor: pointer;
+}
+
+.l-panel {
+    width: 15%;
+}
+
+.c-panel {
+    width: 70%;
+
+    display: flex;
+    flex-direction: row;
+
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.r-panel {
+    width: 15%;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.dark .toolbar {
+    background-color: #555555;
+    color: white;
+}
+
+.dark a {
+    color: white;
+    text-decoration: none;;
+}

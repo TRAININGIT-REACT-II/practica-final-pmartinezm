@@ -1,0 +1,13 @@
+.title {
+    border-bottom: solid 2px black;
+    font-size: 3em;
+}
+
+.dark .title  {
+    border-bottom: solid 2px white;
+    font-size: 3em;
+}
+
+.children {
+    margin-top: 50px;
+}

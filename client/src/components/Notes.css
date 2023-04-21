@@ -1,0 +1,70 @@
+.notes {
+    padding: 20px;
+}
+
+.notes-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    border-bottom: solid 1px gray;
+}
+
+.notes-list {
+    width: 100%;
+    margin-top: 25px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td {
+    font-size: 1.25em;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+th {
+    font-size: 1.5em;
+    text-align: left;
+}
+
+.notes-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    padding: 20px;
+}
+
+.visualization-change-button {
+    cursor: pointer;
+}
+
+.badge {
+    border: solid 1px black;
+    border-radius: 10px;
+    padding: 4px;
+    font-weight: bold;
+
+    color: black;
+    background-color: lightsalmon;
+}
+
+.dark .badge {
+    background-color: #555555;
+    color: white;
+}
+
+.dark tr:nth-child(even) {
+    background-color: #555555;
+  }

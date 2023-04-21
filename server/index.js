@@ -103,6 +103,7 @@ fastify.post("/api/register", (request, reply) => {
     // Encriptamos la contraseña
     bcrypt.hash(password, SALT_ROUNDS_TO_ENCRYPT, (err, hash) => {
       if (err) {
+        console.log(err);
         return reply.code(500).send({
           error: "Hubo un error al almacenar la contraseña",
         });
